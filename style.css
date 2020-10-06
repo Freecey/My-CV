@@ -1,3 +1,45 @@
+.bgsite { 
+  background: url(17973908.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 1;
+}
+
+
+
+body { 
+  font-family: monospace; 
+  font-size: 100%;
+}
+
+li {
+  margin:0 0 10px 0;   
+}
+
+.comp-name {
+  font-weight: bold;
+}
+
+.comp-loc {
+  font-style: italic;
+}
+
+.sch-name {
+  font-weight: bold;
+}
+
+.sch-loc {
+  font-style: italic;
+}
+
+.job-name {
+  color: darkblue;
+  }
+
+
+ /* 
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -28,3 +70,5 @@
     grid-column: 3;
     grid-row: 4;
   }
+
+*/
