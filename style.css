@@ -7,9 +7,10 @@
   opacity: 1;
 }
 
-body { 
+.bodygrid { 
   font-family: monospace; 
   font-size: 125%;
+  /*margin-top: 100px; remove for nav top bar*/
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -101,6 +102,7 @@ h3 {
   }
 
   .sec-mypic {
+    margin-top: 50px;
     grid-column: 1 / span auto;
     grid-row: 1 / span auto;
   }
@@ -111,4 +113,35 @@ h3 {
     height: auto;
     filter: sepia(60%);
     border-radius:50%;
+  }
+  /* TEST TOP nav barre */
+  body {
+    margin: 0;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
   }
