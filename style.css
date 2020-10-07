@@ -37,36 +37,53 @@ li {
   }
 
 
- /* 
+
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
     grid-auto-rows: minmax(100px, auto);
   }
-  .one {
-    grid-column: 1 / 3;
+  .sec-name {
+    grid-column: 3 / span 2;
     grid-row: 1;
   }
-  .two { 
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
+  .sec-contact {
+    grid-column: 5;
+    grid-row: 1;
+    background-color : yellowgreen;
+
   }
-  .three {
-    grid-column: 1;
-    grid-row: 2 / 5;
+  .sec-formations { 1
+    grid-column: 3 / span 3;
+    grid-row: 6;
+    background-color : rgb(255, 172, 77);
   }
-  .four {
-    grid-column: 3;
+  .sec-langues {
+    grid-column: 4 / span 2;
+    grid-row: 2;
+  }
+  .sec-experiences {
+    grid-column: 1 / span 3;
+    grid-row: 4 / span 2;
+    background-color : rgb(255, 172, 77);
+  }
+  .sec-connaissances {
+    grid-column: 2 / span 3;
     grid-row: 3;
+    background-color : #ffc74d;
   }
-  .five {
-    grid-column: 2;
-    grid-row: 4;
-  }
-  .six {
-    grid-column: 3;
+  .sec-loisirs {
+    grid-column: 4 / span 2;
     grid-row: 4;
   }
 
-*/
+  .sec-mypic {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
