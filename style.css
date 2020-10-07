@@ -9,7 +9,13 @@
 
 body { 
   font-family: monospace; 
-  font-size: 100%;
+  font-size: 125%;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.ftsz-125 {
+  font-size: 125%;
 }
 
 li {
@@ -36,54 +42,73 @@ li {
   color: darkblue;
   }
 
+.txt-vert{
+   vertical-align: middle;
+  }
 
+.contact-mrg {
+  margin-left: 25px;
+  }
+
+h3 {
+  text-align: center;
+}
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     grid-auto-rows: minmax(100px, auto);
+    align-items: center;
   }
   .sec-name {
     grid-column: 3 / span 2;
     grid-row: 1;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    font-size: 150%;
   }
   .sec-contact {
-    grid-column: 5;
-    grid-row: 1;
+    grid-column: 1 / auto;
+    grid-row: 2;
     background-color : yellowgreen;
-
   }
-  .sec-formations { 1
-    grid-column: 3 / span 3;
-    grid-row: 6;
-    background-color : rgb(255, 172, 77);
+  .sec-formations { 
+    grid-column: 2 / span 3;
+    grid-row: 5;
+    background-color : #ffc74d;
   }
   .sec-langues {
-    grid-column: 4 / span 2;
-    grid-row: 2;
+    grid-column: 1 / auto;
+    grid-row: 3;
+    background-color : yellowgreen;
   }
   .sec-experiences {
-    grid-column: 1 / span 3;
-    grid-row: 4 / span 2;
+    grid-column: 2 / span 3;
+    grid-row: 3 / span 2;
     background-color : rgb(255, 172, 77);
   }
   .sec-connaissances {
     grid-column: 2 / span 3;
-    grid-row: 3;
+    grid-row: 2;
     background-color : #ffc74d;
   }
   .sec-loisirs {
-    grid-column: 4 / span 2;
-    grid-row: 4;
+    grid-column: 1 / auto;
+    grid-row: 3 /span 2;
+    background-color : yellowgreen;
   }
 
   .sec-mypic {
-    grid-column: 1 / span 2;
-    grid-row: 1 / span 2;
+    grid-column: 1 / span auto;
+    grid-row: 1 / span auto;
   }
 
-  img {
+  .img-prof {
     max-width: 100%;
+    max-width: 300px;
     height: auto;
+    filter: sepia(60%);
+    border-radius:50%;
   }
