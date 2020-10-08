@@ -9,14 +9,16 @@
 
 .bodygrid { 
   font-family: monospace; 
-  font-size: 125%;
+  font-size: 100%;
   /*margin-top: 100px; remove for nav top bar*/
   margin-left: 25px;
   margin-right: 25px;
 }
 
+
 .ftsz-125 {
-  font-size: 125%;
+  font-size: 100%;
+  margin-left: 100px;
 }
 
 li {
@@ -63,68 +65,74 @@ h3 {
     align-items: center;
   }
   .sec-name {
-    grid-column: 3 / span 2;
+    margin-top: 20px;
+    grid-column: 1 / span 4;
     grid-row: 1;
     justify-content: center;
     align-content: center;
     align-self: center;
-    font-size: 150%;
+    font-size: 18px;
   }
 
 
 .sec-intro {
-    grid-column: 2 / span 3;
+    grid-column: 1 / span 4;
     grid-row: 2;
     background-color : rgb(81, 135, 206);
     border-radius: 10% ;
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-contact {
-    grid-column: 1 / auto;
-    grid-row: 3;
+    grid-column: 1 / span 4;
+    grid-row: 8;
     background-color : yellowgreen;
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-formations { 
-    grid-column: 2 / span 3;
-    grid-row: 6;
+    grid-column: 1 / span 4;
+    grid-row: 5;
     background-color : #ffc74d;
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-langues {
-    grid-column: 1 / auto;
-    grid-row: 4;
+    grid-column: 1 / span 4;
+    grid-row: 6;
     background-color : yellowgreen;
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-experiences {
-    grid-column: 2 / span 3;
-    grid-row: 4 / span 2;
+    grid-column: 1 / span 4;
+    grid-row: 4;
     background-color : rgb(255, 172, 77);
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-connaissances {
-    grid-column: 2 / span 3;
+    grid-column: 1 / span 4;
     grid-row: 3;
     background-color : #ffc74d;
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-loisirs {
-    grid-column: 1 / auto;
-    grid-row: 4 /span 2;
+    grid-column: 1 / span 4;
+    grid-row: 7;
     background-color : yellowgreen;
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
 
   .sec-mypic {
+    position: absolute;
+    margin-top: 100px;
+
+
+    /*
     margin-top: 50px;
     grid-column: 1 / span auto;
-    grid-row: 1 / span auto;
+    grid-row: 1 / span auto; */
   }
 
   .img-prof {
     max-width: 100%;
-    max-width: 300px;
+    max-width: 75px;
     height: auto;
     filter: sepia(60%);
     border-radius:50%;
@@ -146,9 +154,9 @@ h3 {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 12px;
   }
   
   .topnav a:hover {
@@ -175,6 +183,6 @@ footer img {
 }
 
 .menuicone {
-  height: 19px;
+  height: 14px;
   width: auto;
 }
