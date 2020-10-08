@@ -160,3 +160,16 @@ h3 {
     background-color: #4CAF50;
     color: white;
   }
+
+  footer {
+    font-family: monospace; 
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center; 
+    font-size: 12px;
+  }
+
+footer img {
+  height: 12px;
+  width: 12px;
+}
