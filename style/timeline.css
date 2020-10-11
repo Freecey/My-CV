@@ -1,0 +1,39 @@
+
+
+.tformation {
+    margin-left: 20%;
+    margin-right: 55%;
+    background-color: rgb(250, 253, 60);
+    padding: 5px;
+    border: solid darkgrey 2px;
+}
+
+.expcomp {
+    margin-left: 60%;
+    margin-right: 15%;
+    background-color: rgb(255, 148, 27);
+    padding: 5px;
+    border: solid darkgrey 2px;
+}
+
+.tformation .yearexp {
+    display: block;
+    text-align: right;
+    margin-right: -30%;
+}
+
+
+.expcomp .yearexp {
+    display: block;
+    text-align: left;
+    margin-left: -40%;
+}
+
+.trash {
+
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+    text-align: center;
+}
+

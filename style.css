@@ -63,7 +63,7 @@ h3 {
     align-items: center;
   }
   .sec-name {
-    grid-column: 3 / span 2;
+    grid-column: 3 / div 2;
     grid-row: 1;
     justify-content: center;
     align-content: center;
@@ -73,7 +73,7 @@ h3 {
 
 
 .sec-intro {
-    grid-column: 2 / span 3;
+    grid-column: 2 / div 3;
     grid-row: 2;
     background-color : rgb(81, 135, 206);
     border-radius: 10% ;
@@ -86,7 +86,7 @@ h3 {
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-formations { 
-    grid-column: 2 / span 3;
+    grid-column: 2 / div 3;
     grid-row: 6;
     background-color : #ffc74d;
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
@@ -98,28 +98,28 @@ h3 {
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-experiences {
-    grid-column: 2 / span 3;
-    grid-row: 4 / span 2;
+    grid-column: 2 / div 3;
+    grid-row: 4 / div 2;
     background-color : rgb(255, 172, 77);
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-connaissances {
-    grid-column: 2 / span 3;
+    grid-column: 2 / div 3;
     grid-row: 3;
     background-color : #ffc74d;
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
   .sec-loisirs {
     grid-column: 1 / auto;
-    grid-row: 4 /span 2;
+    grid-row: 4 /div 2;
     background-color : yellowgreen;
     box-shadow: 5px 5px 5px rgb(66, 66, 66);
   }
 
   .sec-mypic {
     margin-top: 50px;
-    grid-column: 1 / span auto;
-    grid-row: 1 / span auto;
+    grid-column: 1 / div auto;
+    grid-row: 1 / div auto;
   }
 
   .img-prof {
